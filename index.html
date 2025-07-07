@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jaures Guedou ">
+    <meta name="description" content="Course home page">
+    <title>Welcome to time zone</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Roboto+Condensed:wght@100..900&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    
+</head>
+<body>
+    
+    <header>
+        <div class="name">
+            <img src="images/brand.svg" alt="logo" width="100">
+            <h2>Time Zone</h2>
+        
+        </div>
+        <nav>
+
+            <input type="checkbox" id="menu-toggle">
+             <label for="menu-toggle" class="hamburger">
+              <span></span><span></span><span></span>
+        
+             </label>
+            <ul class="menu">
+        
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber Project</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+            
+
+        </nav>
+
+    </header>
+    <main>
+       <h1>Home</h1>
+
+     <div class="wrap">
+       <section>
+         <div class="allabout">
+            <div class="about">
+                <h2>About me</h2>
+                <p>I am Jaures Guedou. I'm twenty,slim and smart. I'm a  BYU <br> student and i like to play video games watch animes.My time is <br> very important to me.</p>
+            </div>
+            <div class="student ">
+                <h2>Student Photo</h2>
+                <img src="images/profile.jpg" alt="Student Photo">
+            </div>
+         </div>
+       </section>
+       <section>
+          <div class="top">
+            
+                <h2>Web certificate Courses</h2>
+          </div>
+            <!-- Filter Buttons -->
+            <div class="filters">
+            <button data-subject="All">All Courses</button>
+            <button data-subject="WDD">WDD Courses</button>
+            <button data-subject="CSE">CSE Courses</button>
+            </div>
+
+            <!-- Dynamic Certificate Container -->
+            <section class="certificate" id="certificate-section">
+            <!-- JS will inject .course-card elements here -->
+            </section>
+
+            </div>
+       </section>
+
+    </div>
+
+
+    </main>
+    <footer>
+        <h3 id="total-credits">Total Credits for course above is: 0</h3>
+        <div class="info">
+            <ul>
+                <li>
+                <a href="https://github.com/jauresguedou/wdd231.git"><img src="images/github.webp" alt="Github Account" width="70"></a>
+                <a href="https://www.instagram.com/guedoujaures?igsh=MWwzOTg2YXIyM2g0bg%3D%3D&utm_source=qr"><img src="images/instagram.webp" alt="Instagram Account"width="70"></a>
+                <a href="http://linkedin.com/in/jaures-guedou-893687249"><img src="images/linkedin.webp" alt="Instagram Acccount"width="70"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="current">
+            <span id="currentyear"></span>
+            <span id="lastModified"></span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
