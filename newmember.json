@@ -1,0 +1,19 @@
+{
+ "family_name" : "Guedou",
+ "moving_date":"2025-07-10",
+ "number_of_people":12,
+ "visited_by_bisphopric":true,
+ "family_member_data":[
+     { "name": "Charbel",
+      "gender": "male",
+      "birthday": "2000-04-23"
+
+       }
+
+
+ ]
+
+
+
+
+}
