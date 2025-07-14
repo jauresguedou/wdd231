@@ -1,0 +1,134 @@
+.name {
+     display:flex
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80px;
+    
+    
+}
+li {
+    list-style: none;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;     
+}
+
+.element {
+    display:flex;
+    
+   justify-content: space-between;
+
+}
+
+.weather{
+    width: 15rem;
+}
+
+.event{
+    width: 20rem;
+}
+
+.time{
+    background-color:rgba(128, 128, 128, 0.39);
+    margin-top: -20px;
+
+    
+}
+
+.time p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.change{
+    background-color:rgba(128, 128, 128, 0.39);
+    margin-top: -20px;
+    padding-bottom: 180px;
+
+}
+
+.hero img{
+    width:100% ;
+    height:auto;
+}
+
+h3{
+    background-color: rgba(0, 0, 0, 0.805);
+    color:aliceblue;
+}
+
+.weather-info{
+    margin-top: -60px;
+}
+
+.commerce-icon{
+    margin-left: 560px;
+    margin-top: -150px;
+}
+
+
+.me{
+    
+margin-left: 900px;
+margin-top: -70px;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.573);
+    height: 28vh;
+}
+
+.just{
+    background-color:rgba(128, 128, 128, 0.39);
+    margin-top: -20px;
+    height: 50vh;
+}
+
+
+.cards{
+    display: flex;
+    padding: -10px;
+}
+
+.cards img {
+     width: 60px;
+}
+
+.cards p h2 {
+    font-size: small;
+}
+
+
+
+
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cards.grid .card {
+  width: calc(33% - 1rem);
+}
+
+.cards .card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .cards.grid .card {
+    width: 100%;
+  }
+}

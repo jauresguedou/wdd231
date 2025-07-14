@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Solaris Tech Solutions",
+        "address": "25 Innovation Crescent, Cotonou, Benin",
+        "phone": "+229 21 45 78 90",
+        "website": "https://www.solaristech.com",
+        "icon": "chamber-images/solar.webp",
+        "membership_level": 3,
+        "category": "IT & Software",
+        "year_founded": 2014
+    },
+    {
+        "name": "EcoNest Builders",
+        "address": "102 Greenway Ave, Porto-Novo, Benin",
+        "phone": "+229 22 33 45 67",
+        "website": "https://www.econestbn.com",
+        "icon": "chamber-images/cons.webp",
+        "membership_level": 2,
+        "category": "Construction",
+        "year_founded": 2009
+    },
+    {
+        "name": "NouvoFoods Ltd",
+        "address": "7 Market Lane, Abomey, Benin",
+        "phone": "+229 20 45 87 34",
+        "website": "https://www.nouvofoods.com",
+        "icon": "chamber-images/songa.webp",
+        "membership_level": 1,
+        "category": "Food & Beverage",
+        "year_founded": 2018
+    },
+    {
+        "name": "Benin Express Logistics",
+        "address": "3 Shipping Blvd, Parakou, Benin",
+        "phone": "+229 23 11 22 33",
+        "website": "https://www.beninexpress.com",
+        "icon": "chamber-images/express.webp",
+        "membership_level": 2,
+        "category": "Logistics & Transport",
+        "year_founded": 2011
+    },
+    {
+        "name": "Orisun Creative Studio",
+        "address": "89 Arts District, Natitingou, Benin",
+        "phone": "+229 24 66 77 88",
+        "website": "https://www.orisunstudio.com",
+        "icon": "chamber-images/oris.webp",
+        "membership_level": 3,
+        "category": "Design & Branding",
+        "year_founded": 2016
+    },
+    {
+        "name": "Zena Wellness Group",
+        "address": "56 Serenity St, Ouidah, Benin",
+        "phone": "+229 25 98 76 54",
+        "website": "https://www.zenawellness.org",
+        "icon": "chamber-images/serenity.webp",
+        "membership_level": 1,
+        "category": "Health & Wellness",
+        "year_founded": 2020
+    },
+    {
+        "name": "Kora Digital Agency",
+        "address": "12 Boulevard du Web, Cotonou, Benin",
+        "phone": "+229 21 88 99 00",
+        "website": "https://www.koradigital.bj",
+        "icon": "chamber-images/kora.webp",
+        "membership_level": 2,
+        "category": "Marketing & Advertising",
+        "year_founded": 2012
+    }
+]

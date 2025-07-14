@@ -1,0 +1,12 @@
+@media(min-width:320px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+   
+}
