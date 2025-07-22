@@ -31,8 +31,16 @@ li {
     width: 15rem;
 }
 
+.weather {
+    text-align: center;
+}
+
 .event{
     width: 20rem;
+}
+
+.event h3 {
+    text-align: center;
 }
 
 .time{
@@ -56,8 +64,9 @@ li {
 }
 
 .hero img{
-    width:100% ;
-    height:auto;
+    width: 100%;
+    height: auto;
+    border: 4px solid rgba(172, 255, 47, 0.592);
 }
 
 h3{
@@ -136,4 +145,23 @@ footer{
   .cards.grid .card {
     width: 100%;
   }
+}
+
+
+.cta-button{
+    border: 2px solid rgba(0, 0, 255, 0.493);
+    background-color: goldenrod;
+    padding: 25px;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+ul {
+    display: flex;
 }
