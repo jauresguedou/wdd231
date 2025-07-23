@@ -20,6 +20,8 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Roboto+Condensed:wght@100..900&family=Smooch+Sans:wght@100..900&display=swap"
         rel="stylesheet">
     <script src="chamber-scripts/menu.js" defer></script>
+    <script src="chamber-scripts/api.js" defer></script>
+    <script src="chamber-scripts/keyapi.js" defer></script>
 </head>
 
 <body>
@@ -54,53 +56,20 @@
             <img src="chamber-images/hero.jpg" alt="Timbuktu of commerce hero" width="600">
         </div>
         <div class="call">
-            <button type="button" class="cta-button">Sign Up Now</button>
+            <button type="button" class="cta-button">Join Us</button>
         </div>
-        <div class="home">
             <h1>Chamber of Commerce Directory Homepage</h1>
-            <div class="element">
-                <div class="event">
-                    <h3>Events</h3>
-                    <div class="just">
-                        <p>.</p>
-                    </div>
+                <section id="weather">
+                    <h2>Weather in Cotonou</h2>
+                    <p id="current"></p>
+                    <div id="forecast"></div>
+               </section>
 
-                </div>
-
-                <div class="weather">
-                    <h3> Current Weather</h3>
-                    <div class="time">
-                        <span><img src="chamber-images/cloudy.png" alt="cloud icon" width="70"></span>
-                        <div class="weather-info">
-                            <p><strong>75°F</strong></p>
-                            <p>Party Cloudy</p>
-                            <p>High: 85°</p>
-                            <p>Low: 52°</p>
-                            <p>34%</p>
-                            <p>7:30am</p>
-                            <p>9:59pm</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="forecast">
-                    <h3>Weather Forecast</h3>
-                    <div class="change">
-                        <p>Today: <strong>90°F</strong> </p>
-                        <p>Wednesday: <strong>89°F</strong></p>
-                        <p>Thursday:<strong>68°F</strong></p>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-            </div>
-
-
-        </div>
+                <section id="spotlights">
+                    <h2>Member Spotlights</h2>
+                    <div id="cards"></div>
+                </section>
+                    
         <section class="members">
             <div class="cards">
 

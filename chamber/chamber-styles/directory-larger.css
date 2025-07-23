@@ -108,6 +108,15 @@
   .info {
     align-items: center; /* optional: center children horizontally */
   }
+  #cards {
+    display: flex;
+    flex-direction: column;
+  }
 
+  #cards .card{
+    margin: 10px;
+  }
+
+  
 
 }
