@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .divide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .membership-cards h2{
+        margin-left: 70px;
+    }
+
+    .membership-cards a {
+        margin-left: 90px;
+    }
+    input[type="submit"] {
+    margin-left: 115px;
+    width: 100px;
+    padding: 10px;
+    font-size: large;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+}

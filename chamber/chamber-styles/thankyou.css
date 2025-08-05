@@ -1,0 +1,22 @@
+dl {
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    gap: 50px;
+}
+
+
+dt , dd {
+    margin: 30px;
+}
+
+dt {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+main p {
+    text-align: center;
+}
+
+
