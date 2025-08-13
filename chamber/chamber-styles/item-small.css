@@ -1,0 +1,125 @@
+@media (max-width: 640px) {
+
+  .site-menu {
+    position: relative;
+    padding-top: 3rem;
+  }
+  .hero img {
+    margin-top: 20px;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    background: none;
+    border: none;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 260px;
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: max-height 0.3s ease;
+    z-index: 999;
+  }
+
+  .nav-menu.active {
+    max-height: 400px;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    width: 25px;
+    height: 3px;
+    background: #333;
+    display: block;
+    position: relative;
+  }
+  .hamburger::before { content: ""; top: -8px; position: absolute; }
+  .hamburger::after  { content: ""; top:  8px; position: absolute; }
+  .cta-button {
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+  }
+
+  footer{
+    margin: 1rem auto;
+  }
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+}
+.event {
+    margin-left: 30px;
+}
+.event h3{
+    text-align: center;
+}
+.weather {
+    margin-left: 70px;
+}
+
+.weather h3{
+    text-align: center;
+}
+
+.forecast h3 {
+    text-align: center;
+}
+.forecast p {
+    text-align: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.commerce-icon,
+  .me {
+    margin-left: 0;
+    margin-top: 1rem; /* optional spacing between sections */
+    text-align: center; /* optional for better appearance */
+  }
+
+  .commerce-info {
+    text-align: center;
+  }
+
+  .info {
+    align-items: center; /* optional: center children horizontally */
+  }
+  #cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cards-container .card{
+    margin: 10px;
+  }
+
+  #cards-container img {
+  border: 2px solid red;
+}
+
+
+}

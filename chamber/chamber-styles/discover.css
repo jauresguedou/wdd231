@@ -1,0 +1,242 @@
+.name {
+     display:flex
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80px;
+    
+    
+}
+li {
+    list-style: none;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;     
+}
+
+.element {
+    display:flex;
+    
+   justify-content: space-between;
+
+}
+
+.weather{
+    width: 15rem;
+}
+
+.weather {
+    text-align: center;
+}
+
+.event{
+    width: 20rem;
+}
+
+.event h3 {
+    text-align: center;
+}
+
+.time{
+    background-color:rgba(128, 128, 128, 0.39);
+    margin-top: -20px;
+
+    
+}
+
+.time p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.change{
+    background-color:rgba(128, 128, 128, 0.39);
+    margin-top: -20px;
+    padding-bottom: 180px;
+
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    border: 4px solid rgba(172, 255, 47, 0.592);
+}
+
+h3{
+    background-color: rgba(0, 0, 0, 0.805);
+    color:aliceblue;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+
+.commerce-icon{
+    margin-left: 560px;
+    margin-top: -150px;
+}
+
+
+.me{
+    
+margin-left: 900px;
+margin-top: -70px;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.573);
+    height: 28vh;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+#spotlights h2 {
+    text-align: center;
+}
+
+#cards  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+    
+}
+
+#cards .card {
+    border: 4px solid rgba(0, 0, 255, 0.493);
+    border-radius: 10px;
+}
+ 
+#cards img {
+    width: 70px;
+    
+    
+}
+
+
+
+
+.cta-button{
+    border: 2px solid rgba(0, 0, 255, 0.493);
+    background-color: goldenrod;
+    padding: 25px;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+ul {
+    display: flex;
+}
+
+
+
+
+
+
+#weather {
+  max-width: 240px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: rgba(255,255,255,0.9);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#weather img {
+  width: 60px;
+  height: 60px;
+}
+
+#weather span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#weather p {
+  margin: 0.25rem 0 0;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.forecast-day {
+  flex: 1;
+  background: #fff;
+  border-radius: 6px;
+  padding: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.forecast-day p {
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+}
+
+
+ h1 {
+    text-align: center;
+}
+
+
+
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 540px;
+    padding: 10px;
+    font-size: small;
+}
+
+
+figure {
+    margin-left: 455px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+
+address {
+    text-align: center;
+}
+
+
+#cards-container img:hover {
+    transform: scale(1.1);
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+.sidebar {
+   margin-top: 100px; 
+   margin-left: 510px;
+   font-weight: bold;
+}

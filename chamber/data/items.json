@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Statue de l'Amazone",
+    "address": "chamber-images/amazone.webp",
+    "description": "The area of ​​implantation presents a tourist interest with many facilities. It offers opportunities for relaxation and outdoor activities for residents and visitors. The monument is erected on the Amazon esplanade."
+  },
+  {
+    "name": "Monument Bio Guerra",
+    "address": "chamber-images/guerra.webp",
+    "description": "The statue of Bio Guera is located on the roundabout of the Cardinal Bernardin Gantin International Airport in Cadjehoun (AICBG);\n\nThe statue is composed of a cast iron shell (T3 copper) with an average thickness of 5 mm mounted on a steel structure; the whole resting on a reinforced concrete foundation;\n\nThe total height of the monument is 10 m, including 10 m in length, 3 m in width, and 7 m in height for the statue itself."
+  },
+  {
+    "name": "Benin Republic Flag",
+    "address": "chamber-images/flag.webp",
+    "description": "The flag of the Republic of Benin is a vertical tricolor with a green band on the hoist side and two equal horizontal bands of yellow and red on the fly side. The colors are part of the Pan-African colors, symbolizing hope, wealth, and courage respectively."
+  },
+  {
+    "name": "Guelede Mask",
+    "address": "chamber-images/mask.webp",
+    "description": "Gelede \"masks\" are actually elaborate headdresses worn during Gelede festivals by Yoruba people in Benin, Nigeria, and Togo. These headdresses are not worn to hide the face, but rather sit atop the head, with the wearer’s face covered by a cloth. They are a form of performance art, combining intricate carvings, vibrant colors, and social commentary."
+  },
+  {
+    "name": "Zémidjan",
+    "address": "chamber-images/zem.webp",
+    "description": "A zémidjan (or \"zem\") is a type of taxi found in Benin.[1] The highest concentration is found in the largest city, Cotonou, where there are an estimated 72,000.[2] Zémidjans are motorcycles that carry one to two passengers for short distances in towns."
+  },
+  {
+    "name": "Benin Republic Djembe Drum",
+    "address": "chamber-images/drum.webp",
+    "description": "Djembe drums from the Benin Republic, like djembes from other West African regions, are goblet-shaped, hand-played drums traditionally made from a single piece of hardwood and covered with a goatskin head. They are known for their versatility, producing a wide range of sounds including bass, tone, and slap, and are used in various musical and ceremonial contexts."
+  },
+  {
+    "name": "Benin Republic Voodoo Talimsan",
+    "address": "chamber-images/talisman.webp",
+    "description": "In the Benin Republic, Voodoo (or Vodún) talismans, known as \"bǒ\", are small, often cloth or animal skin pouches containing a variety of items believed to hold spiritual power. These talismans are activated through specific incantations (\"bǒgbé\") and are used for a wide range of purposes, including protection, healing, and enhancing personal abilities."
+  },
+  {
+    "name": "Bronze From Benin Republic",
+    "address": "chamber-images/bronze.webp",
+    "description": "The \"Benin Bronzes\" refer to a collection of metal sculptures, primarily brass and bronze, created by the Edo people of the Kingdom of Benin, which is now located in modern-day Nigeria."
+  }
+]
